@@ -1,6 +1,6 @@
 # Week4 tutorial agenda
 
-This is the agenda for week 4 tutorial, the team has dicussed the work done in week 3 and think of this agenda as a team. Follwoings
+This is the agenda for week 4 tutorial, the team has dicussed the work done in week 3 and think of this agenda as a team. Followings
 are several points which the team wants to dicuss with tutors and peers.
 
 1.In the first meeting with the client, he promised to point out the research direction for us. We emailed the client last Friday and 
