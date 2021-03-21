@@ -1,4 +1,4 @@
-# Change Log
+# Decision makingi Log
 
 |   Date    |   Decision        |   Reason                      |   Impact     |
 |------     |   -------         |   ---                         |   ----       |
