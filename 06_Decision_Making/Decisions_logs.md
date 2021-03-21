@@ -1,4 +1,4 @@
-# Decision makingi Log
+# Decision Making Log
 
 |   Date    |   Decision        |   Reason                      |   Impact     |
 |------     |   -------         |   ---                         |   ----       |
