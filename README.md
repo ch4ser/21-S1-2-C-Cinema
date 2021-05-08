@@ -1,13 +1,16 @@
 # 21-S1-2-C-Cinema
 ANU Tech Launcher Project 21-S1-2-C-Cinema
 User Manual
+# Check User Manual.pdf for details
 1. How to use trained model to process new videos
 1.1 Operation guide
 The main script of the project is Detect_main.py. It contains three functions, which are used to detect age and gender, facial expressions and action behaviours. You only need to run this script and enter the path of the source video in the console to get the final output.
 In the three functions in Detect_main.py, you can set a Boolean value as their parameters. When the value is True, you can see the results of real-time processing. When the value is False, you can omit the real-time monitoring to improve the processing speed.
 After processing, the labelled video is saved as output_body.mp4, and all label information is saved in all_labels.txt. These files are all saved in the same directory of this script.
 Some other files will also be generated. age+gender.mp4 is an output video that only contains age and gender information; output_facial.mp4 contains age and gender information and facial expression information; every time the code is re-run, all the videos mentioned above will be overwritten.
- 
+In this delivery version, we pre-set some labels based on some video sources provided by the client, and trained the model based on these labels:
+•	Facial expressions: friendly, cool
+•	Actions: speaking, push-up, squat-up
 1.2 Schematic diagram of the running structure 
  ![img.png](img.png)
 Please note that in the above chart, the function of human segmentation is not integrated in Detect_main.py due to its poor performance. We will fix this problem in the development of subsequent versions.
