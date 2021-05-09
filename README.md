@@ -12,7 +12,7 @@ In this delivery version, we pre-set some labels based on some video sources pro
 •	Facial expressions: friendly, cool
 •	Actions: speaking, push-up, squat-up
 1.2 Schematic diagram of the running structure 
- ![img.png](img.png)
+ ![Algorithm flow.png](Algorithm flow.png)
 Please note that in the above chart, the function of human segmentation is not integrated in Detect_main.py due to its poor performance. We will fix this problem in the development of subsequent versions. However, you may still run human-counting-project-code.py to see the processed outcome.
 
 2. How to add customized new labels and train the model
