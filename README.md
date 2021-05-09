@@ -13,7 +13,7 @@ In this delivery version, we pre-set some labels based on some video sources pro
 •	Actions: speaking, push-up, squat-up
 1.2 Schematic diagram of the running structure 
  ![img.png](img.png)
-Please note that in the above chart, the function of human segmentation is not integrated in Detect_main.py due to its poor performance. We will fix this problem in the development of subsequent versions.
+Please note that in the above chart, the function of human segmentation is not integrated in Detect_main.py due to its poor performance. We will fix this problem in the development of subsequent versions. However, you may still run human-counting-project-code.py to see the processed outcome.
 
 2. How to add customized new labels and train the model
 Among the three main functions of this algorithm, namely gender and age detection, expression detection and motion detection, gender detection uses an open-source pre-training model developed by MIT. Therefore, when the label structure changes, this part of the model does not need to be retrained. The following description will focus on expression detection and motion detection.
